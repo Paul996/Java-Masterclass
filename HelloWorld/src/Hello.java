@@ -12,6 +12,6 @@ public class Hello {
         int myLastOne = 1000 - myTotal;
 
         System.out.println(myTotal);
-        System.out.println(myLastOne);
+        System.out.println(myLastOne); // Finish Class 1
     }
 }

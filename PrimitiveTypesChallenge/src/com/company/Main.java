@@ -7,14 +7,10 @@ public class Main {
         short shortNum = (short)4;
         int intNum = 6;
 
-        int sum = byteNum + shortNum + intNum;
-
-        double doubleNum = 50_000 * Math.pow(sum, 10);
-        long longNum = (long)doubleNum;
+        long longNum = 50_000L + 10L * (byteNum + shortNum + intNum);
         System.out.println(byteNum);
         System.out.println(shortNum);
         System.out.println(intNum);
-        System.out.println(doubleNum);
         System.out.println(longNum);
     }
 }

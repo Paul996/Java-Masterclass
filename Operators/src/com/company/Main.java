@@ -19,5 +19,23 @@ public class Main {
 
         result = result % 3;
         System.out.println(result);
+
+        result++;
+        System.out.println(result);
+
+        result--;
+        System.out.println(result);
+
+        result += 2;
+        System.out.println(result);
+
+        result *= 10;
+        System.out.println(result);
+
+        result /= 3;
+        System.out.println(result);
+
+        result -= 2;
+        System.out.println(result);
     }
 }

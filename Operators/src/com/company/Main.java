@@ -6,6 +6,18 @@ public class Main {
 
         int result = 1 + 2;
         System.out.println(result);
+        int previousResult = result;
+        System.out.println(previousResult);
+        result = result - 1 ;
+        System.out.println(result);
 
+        result = result * 10;
+        System.out.println(result);
+
+        result = result / 5;
+        System.out.println(result);
+
+        result = result % 3;
+        System.out.println(result);
     }
 }

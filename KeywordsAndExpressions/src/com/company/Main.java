@@ -19,8 +19,16 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 1000;
 
-        if (score == 5000) {
-            System.out.println("Your score was 5000");
+        if (gameOver) {
+            int finalScore = score + levelCompleted * bonus;
+            System.out.println("Your final score was " + finalScore);
+
+            score = 10_000;
+            levelCompleted = 8;
+            bonus = 200;
+            int secondScore = score + levelCompleted * bonus;
+            System.out.println("Your second score was " + secondScore);
         }
+
     }
 }

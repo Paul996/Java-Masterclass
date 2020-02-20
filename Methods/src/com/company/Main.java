@@ -4,13 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
         calculateScore(true, 800, 5, 100);
+        calculateScore(false, 1000, 8, 200);
+
     }
 
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
         if (gameOver) {
             int finalScore = score + levelCompleted * bonus;
-            finalScore += 1000;
+            finalScore += 2000;
             System.out.println("Your final score was " + finalScore);
+            return finalScore;
+        } else {
+            return -1;
         }
     }
 
